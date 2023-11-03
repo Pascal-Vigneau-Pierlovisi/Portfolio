@@ -1,0 +1,79 @@
+
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-content {
+  flex: 1;
+  /* Remove padding if it's causing issues */
+}
+
+/* Styles généraux pour le pied de page */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  /* autres styles pour le pied de page */
+}
+
+/* Média query pour les appareils avec une largeur maximale de 768px, qui est généralement considérée comme une taille d'écran tablette/mobile */
+@media (max-width: 768px) {
+  footer {
+    padding: 0.5rem; /* réduire le padding sur les appareils mobiles */
+    /* autres ajustements de style pour les appareils mobiles */
+  }
+}
+
+/* Définir l'animation */
+@keyframes anim-logo {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+/* Conteneur pour la photo de profil et le logo */
+.profile-container {
+  position: relative;
+  width: 128px; /* ou la largeur de votre image et logo */
+  height: 128px; /* ou la hauteur de votre image et logo */
+}
+
+/* Style pour la photo de profil */
+.profile-picture .profile-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 128px; /* ajustez selon la taille réelle de vos images */
+  height: 128px;
+  transition: transform 0.5s ease;
+}
+
+/* Style pour le logo */
+.profile-picture .profile-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 128px; /* ajustez selon la taille réelle de vos images */
+  height: 128px;
+  transition: transform 0.5s ease;
+  border-radius: 50%;
+  animation: anim-logo 0.5s ease infinite alternate;
+}
+
+/* Animation sur hover */
+.profile-container:hover .profile-photo {
+  transform: translateX(55%); /* déplace la photo vers la droite */
+}
+
+.profile-container:hover .profile-logo {
+  animation: none;
+  transform: translateX(-55%); /* déplace le logo vers la gauche */
+}
