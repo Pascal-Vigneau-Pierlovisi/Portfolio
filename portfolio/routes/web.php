@@ -16,3 +16,23 @@
 $router->get('/', function () {
     return view('home');
 });
+
+$router->get('/projects', function () {
+    return view('projects');
+});
+
+$router->get('/contact', function () {
+    return view('contact');
+});
+
+$router->post('/send-email', 'ContactController@sendEmail');
+
+$router->get('/success', function () {
+    return view('success');
+});
+
+/* Login Admin */
+$router->get('/login', 'AuthController@showLoginForm');
+$router->post('/login', 'AuthController@login');
+$router->get('/logout', 'AuthController@logout');
+/* Login Admin */

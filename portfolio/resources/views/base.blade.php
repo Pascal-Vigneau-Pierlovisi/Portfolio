@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="/css/theme-color.css">
     <link rel="stylesheet" href="/css/style.css">
+
     <link rel="icon" type="image/png" sizes="16x16" href="/img/logo.png">
+    
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script> <!-- Pour les icônes -->
 
 </head>
@@ -34,6 +36,7 @@
 
     <script src="/js/theme-color.js"></script>
     <script src="/js/navbar.js"></script>
+    <script src="/js/projects-filter.js"></script>
 </body>
 
 </html>

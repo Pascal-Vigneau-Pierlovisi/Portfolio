@@ -23,9 +23,19 @@ $app = new Laravel\Lumen\Application(
     dirname(__DIR__)
 );
 
-// $app->withFacades();
+/* Configuration email */
 
-// $app->withEloquent();
+$app->withFacades();
+
+$app->register(Illuminate\Mail\MailServiceProvider::class);
+
+$app->configure('mail');
+
+$app->withEloquent();
+
+/* Configuration email */
+
+
 
 /*
 |--------------------------------------------------------------------------

@@ -33,30 +33,12 @@
     <div class="container">
         <h2 class="title t has-text-centered">Primary Skills</h2>
         <div class="columns is-multiline">
-            <!-- Skill Item -->
-            <div class="column is-one-quarter-desktop is-half-tablet">
-                <div class="card">
-                    <div class="card-content has-text-centered">
-                        <p class="title is-4"><i class="fab fa-html5"></i> HTML</p>
-                        <progress class="progress is-small is-info" value="90" max="100">90%</progress>
-                    </div>
-                </div>
-            </div>
-            <!-- Skill Item -->
-            <div class="column is-one-quarter-desktop is-half-tablet">
-                <div class="card">
-                    <div class="card-content has-text-centered">
-                        <p class="title is-4"><i class="fab fa-css3-alt"></i> CSS</p>
-                        <progress class="progress is-small is-link" value="90" max="100">90%</progress>
-                    </div>
-                </div>
-            </div>
             <!-- Skill Item: PHP -->
             <div class="column is-one-quarter-desktop is-half-tablet">
                 <div class="card">
                     <div class="card-content has-text-centered">
                         <p class="title is-4"><i class="fab fa-php"></i> PHP</p>
-                        <progress class="progress is-small is-primary" value="100" max="100">100%</progress>
+                        <progress class="progress is-small is-link" value="100" max="100">100%</progress>
                     </div>
                 </div>
             </div>
@@ -66,6 +48,24 @@
                     <div class="card-content has-text-centered">
                         <p class="title is-4"><i class="fab fa-laravel"></i> Laravel</p>
                         <progress class="progress is-small is-danger" value="95" max="100">95%</progress> <!-- Adjust the value as needed -->
+                    </div>
+                </div>
+            </div>
+            <!-- Skill Item -->
+            <div class="column is-one-quarter-desktop is-half-tablet">
+                <div class="card">
+                    <div class="card-content has-text-centered">
+                        <p class="title is-4"><i class="fab fa-angular"></i> Angular</p>
+                        <progress class="progress is-small is-danger" value="90" max="100">90%</progress>
+                    </div>
+                </div>
+            </div>
+            <!-- Skill Item -->
+            <div class="column is-one-quarter-desktop is-half-tablet">
+                <div class="card">
+                    <div class="card-content has-text-centered">
+                        <p class="title is-4"><i class="fab fa-python"></i> Python</p>
+                        <progress class="progress is-small is-link" value="90" max="100">90%</progress>
                     </div>
                 </div>
             </div>
